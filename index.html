@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="https://media.istockphoto.com/id/146187709/video/four-seasons-loop-hd.mp4?s=mp4-640x640-is&k=20&c=1gG8N_csvT0m976nwHYz-JgfppkcJKt34YjaBBT0Xfo=" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
     <div class="weather-app">
         <h1>Weather App</h1>
         <input type="text" id="locationInput" placeholder="Enter city or location" />
         <button id="submitButton">Submit</button>
         <div id="weatherResult" class="weather-result">
-            <!-- Weather details will be displayed here -->
         </div>
     </div>
     <script src="app.js"></script>
